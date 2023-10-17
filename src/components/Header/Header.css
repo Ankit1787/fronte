@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0%;
+box-sizing: border-box;
+}
+.header{
+    display: grid;
+    place-items: center;
+}
+.header-container >div{
+   text-align: center;
+  padding: 10px 0;
+
+}
+
+
+
+.navlink{
+   
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 4rem;
+   font-family: monospace,sans-serif;
+   color: black;
+}
+.header{
+   
+    z-index: 200;
+}
+.fixed-header {
+    position: sticky;
+    top: 50px;
+    width: 90%;
+    margin: 0 auto;
+    z-index: 200;
+    backdrop-filter: inherit;
+}
+

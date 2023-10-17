@@ -1,0 +1,28 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .footer{
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+ .buttom-containter{
+  display: grid;
+  row-gap: 20px;
+  background-color: #fff;
+  padding: 1.5vmax 1.3vmax;
+  width: 100%;
+ }
+ .buttom-containter >span{
+  font-size: 1.4rem;
+  
+ }
+ .buttom-containter >span{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ column-gap: 20px;
+ }
